@@ -25,6 +25,9 @@ public:
     void addObserver(IObserver *pObserver);
     void deleteObserver(IObserver *pObserver);
     void notifyObservers(std::string context);
+    
+    void haveRestWhenWork();
+    void eatSthWhenWork();
 };
 
 
