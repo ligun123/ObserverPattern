@@ -1,0 +1,21 @@
+Observer pattern
+概念：定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并被自动更新。
+
+main()，
+
+IObservable，被观察者接口
+
+CHanFeiZiObservable，被观察者韩非子
+
+IObserver，观察者接口
+
+CLiSiObserver，观察者李斯
+
+CZhouSiObserver观察者周斯
+
+说明：将观察者聚集到被观察者韩非子身边，韩非子的每一个举动都会通知给观察者，如李斯或周斯。
+
+注意：最多允许一个对象既是观察者也是被观察者。就像数据库中的触发器一样，成为一个复杂的链就很难维护了。观察者类似于委托的处理方式。
+
+参考：
+http://www.cnblogs.com/wanggary/archive/2011/04/20/2022975.html
