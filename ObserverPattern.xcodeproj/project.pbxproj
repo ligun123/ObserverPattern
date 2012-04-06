@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28F4F54152ED14600C8C12F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F53152ED14600C8C12F /* main.cpp */; };
+		B28F4F56152ED14600C8C12F /* ObserverPattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B28F4F55152ED14600C8C12F /* ObserverPattern.1 */; };
+		B28F4F5E152ED22B00C8C12F /* IObservable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F5D152ED22B00C8C12F /* IObservable.cpp */; };
+		B28F4F61152ED25C00C8C12F /* IObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F60152ED25C00C8C12F /* IObserver.cpp */; };
+		B28F4F67152ED38500C8C12F /* CLiGunObservable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F66152ED38500C8C12F /* CLiGunObservable.cpp */; };
+		B28F4F6A152ED3B500C8C12F /* CLeaderRoyObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F69152ED3B500C8C12F /* CLeaderRoyObserver.cpp */; };
+		B28F4F6D152ED3F200C8C12F /* CLeaderBossObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28F4F6C152ED3F200C8C12F /* CLeaderBossObserver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B28F4F4D152ED14600C8C12F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B28F4F56152ED14600C8C12F /* ObserverPattern.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B28F4F4F152ED14600C8C12F /* ObserverPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F4F53152ED14600C8C12F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B28F4F55152ED14600C8C12F /* ObserverPattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObserverPattern.1; sourceTree = "<group>"; };
+		B28F4F5C152ED21C00C8C12F /* IObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObservable.h; sourceTree = "<group>"; };
+		B28F4F5D152ED22B00C8C12F /* IObservable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IObservable.cpp; sourceTree = "<group>"; };
+		B28F4F5F152ED25200C8C12F /* IObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IObserver.h; sourceTree = "<group>"; };
+		B28F4F60152ED25C00C8C12F /* IObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IObserver.cpp; sourceTree = "<group>"; };
+		B28F4F65152ED37300C8C12F /* CLiGunObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLiGunObservable.h; sourceTree = "<group>"; };
+		B28F4F66152ED38500C8C12F /* CLiGunObservable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLiGunObservable.cpp; sourceTree = "<group>"; };
+		B28F4F68152ED3AD00C8C12F /* CLeaderRoyObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLeaderRoyObserver.h; sourceTree = "<group>"; };
+		B28F4F69152ED3B500C8C12F /* CLeaderRoyObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLeaderRoyObserver.cpp; sourceTree = "<group>"; };
+		B28F4F6B152ED3E800C8C12F /* CLeaderBossObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLeaderBossObserver.h; sourceTree = "<group>"; };
+		B28F4F6C152ED3F200C8C12F /* CLeaderBossObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLeaderBossObserver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28F4F4C152ED14600C8C12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28F4F44152ED14600C8C12F = {
+			isa = PBXGroup;
+			children = (
+				B28F4F52152ED14600C8C12F /* ObserverPattern */,
+				B28F4F50152ED14600C8C12F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28F4F50152ED14600C8C12F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28F4F4F152ED14600C8C12F /* ObserverPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28F4F52152ED14600C8C12F /* ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				B28F4F55152ED14600C8C12F /* ObserverPattern.1 */,
+				B28F4F53152ED14600C8C12F /* main.cpp */,
+				B28F4F5C152ED21C00C8C12F /* IObservable.h */,
+				B28F4F5D152ED22B00C8C12F /* IObservable.cpp */,
+				B28F4F65152ED37300C8C12F /* CLiGunObservable.h */,
+				B28F4F66152ED38500C8C12F /* CLiGunObservable.cpp */,
+				B28F4F5F152ED25200C8C12F /* IObserver.h */,
+				B28F4F60152ED25C00C8C12F /* IObserver.cpp */,
+				B28F4F68152ED3AD00C8C12F /* CLeaderRoyObserver.h */,
+				B28F4F69152ED3B500C8C12F /* CLeaderRoyObserver.cpp */,
+				B28F4F6B152ED3E800C8C12F /* CLeaderBossObserver.h */,
+				B28F4F6C152ED3F200C8C12F /* CLeaderBossObserver.cpp */,
+			);
+			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28F4F4E152ED14600C8C12F /* ObserverPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28F4F59152ED14600C8C12F /* Build configuration list for PBXNativeTarget "ObserverPattern" */;
+			buildPhases = (
+				B28F4F4B152ED14600C8C12F /* Sources */,
+				B28F4F4C152ED14600C8C12F /* Frameworks */,
+				B28F4F4D152ED14600C8C12F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObserverPattern;
+			productName = ObserverPattern;
+			productReference = B28F4F4F152ED14600C8C12F /* ObserverPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28F4F46152ED14600C8C12F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B28F4F49152ED14600C8C12F /* Build configuration list for PBXProject "ObserverPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B28F4F44152ED14600C8C12F;
+			productRefGroup = B28F4F50152ED14600C8C12F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28F4F4E152ED14600C8C12F /* ObserverPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28F4F4B152ED14600C8C12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F4F54152ED14600C8C12F /* main.cpp in Sources */,
+				B28F4F5E152ED22B00C8C12F /* IObservable.cpp in Sources */,
+				B28F4F61152ED25C00C8C12F /* IObserver.cpp in Sources */,
+				B28F4F67152ED38500C8C12F /* CLiGunObservable.cpp in Sources */,
+				B28F4F6A152ED3B500C8C12F /* CLeaderRoyObserver.cpp in Sources */,
+				B28F4F6D152ED3F200C8C12F /* CLeaderBossObserver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B28F4F57152ED14600C8C12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B28F4F58152ED14600C8C12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B28F4F5A152ED14600C8C12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B28F4F5B152ED14600C8C12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28F4F49152ED14600C8C12F /* Build configuration list for PBXProject "ObserverPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F4F57152ED14600C8C12F /* Debug */,
+				B28F4F58152ED14600C8C12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28F4F59152ED14600C8C12F /* Build configuration list for PBXNativeTarget "ObserverPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F4F5A152ED14600C8C12F /* Debug */,
+				B28F4F5B152ED14600C8C12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28F4F46152ED14600C8C12F /* Project object */;
+}
