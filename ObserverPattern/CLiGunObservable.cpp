@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "CLiGunObservable.h"
+using namespace std;
 
 CLiGunObservable::CLiGunObservable()
 {}
@@ -27,7 +28,29 @@ void CLiGunObservable::deleteObserver(IObserver *pObserver)
         string name = (*it)->getName();
         if (name.compare(pObserver->getName()) == 0) {
             //找到了，删除
+            printf("delete observer : %s\n",name.data());
         }
         it ++;
     }
+}
+
+void CLiGunObservable::notifyObservers(string context)
+{
+    ObserverList_C_iterator t = m_observerList.begin();
+    while (t != m_observerList.end()) {
+        (*t)->update(context);
+        t++;
+    }
+}
+
+void CLiGunObservable::haveRestWhenWork()
+{
+    printf("Ligun is having rest when work\n");
+    notifyObservers("rest");
+}
+
+void CLiGunObservable::eatSthWhenWork()
+{
+    printf("Ligun is eating sth when work\n");
+    notifyObservers("eat");
 }

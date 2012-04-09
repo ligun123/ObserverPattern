@@ -14,6 +14,8 @@ class IObserver {
 protected:
     string m_name;
 public:
+    IObserver(){
+    }
     IObserver(string pName){
         m_name = pName;
     }

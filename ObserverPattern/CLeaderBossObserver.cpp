@@ -8,3 +8,18 @@
 
 #include <iostream>
 #include "CLeaderBossObserver.h"
+
+std::string CLeaderBossObserver::getName()
+{
+    return m_name;
+}
+void CLeaderBossObserver::update(std::string context)
+{
+    if (context == "eat") {
+        printf("Leader Boss will cat ligun's gongzi.\n");
+    }
+    
+    if (context == "rest") {
+        printf("Leader Boss will fire ligun because he rest when work.\n");
+    }
+}

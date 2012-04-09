@@ -8,7 +8,17 @@
 
 #ifndef ObserverPattern_CLeaderBossObserver_h
 #define ObserverPattern_CLeaderBossObserver_h
+#include "IObserver.h"
 
-
+class CLeaderBossObserver : public IObserver{
+public:
+    CLeaderBossObserver(std::string name)
+    {
+        m_name = name;
+    }
+    ~CLeaderBossObserver(){};
+    std::string getName();
+    void update(std::string context);
+};
 
 #endif
